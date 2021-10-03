@@ -6,15 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turlututu</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb3f14be73.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main>
         <!--header start -->
         <header>
-            <nav>
+            <nav class="navigation">
                 <!--all the navigation will go here-->
-                <img src="./assets/images/toplogonav.png" alt="Logo">
+                <img class="topLogo" src="./assets/images/toplogonav.png" alt="Logo">
                 <ul>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Docs</a></li>
@@ -25,49 +32,51 @@
                     <li><a href="#">Sign Up</a></li>
                 </ul>
             </nav>
-            <section>
+            <section class="hero">
                 <!-- hero section will go here -->
                 <img src="./assets/images/hero.png" alt="Hero">
-                <div>
+                <div class="innerHero">
                     <img src="./assets/images/skylogo.png" alt="Logo">
-                    <p> The Plug and Play Database service</p>
-                    <button>Start building NOW >></button>
+                    <div class="textButtonHero">
+                        <p class="heroText"> The Plug and Play Database service</p>
+                        <button class="heroButton">Start building NOW >></button>
+                    </div>
                 </div>
             </section>
         </header>
         <!--header end -->
         <!--section deadlines start -->
-        <section>
-            <h4>For awesome projects with deadlines</h4>
+        <section class="deadlines">
+            <h4 class="projects">For awesome projects with deadlines</h4>
         </section>
         <!--section deadlines end -->
         <!--section articles start -->
-        <section>
+        <section class="articles">
             <article>
-                <h3>Simple to use</h3>
+                <h3><i class="fas fa-chevron-right"></i>Simple to use</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aspernatur ad quae perspiciatis repellat! Tempora ea vero harum hic eveniet dolorem accusamus velit, eum adipisci nostrum quisquam, illum maxime! Dolorem.</p>
             </article>
             <article>
-                <h3>Built for the modern web</h3>
+                <h3><i class="fas fa-chevron-right"></i>Built for the modern web</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aspernatur ad quae perspiciatis repellat! Tempora ea vero harum hic eveniet dolorem accusamus velit, eum adipisci nostrum quisquam, illum maxime! Dolorem.</p>
             </article>
             <article>
-                <h3>Productive</h3>
+                <h3><i class="fas fa-chevron-right"></i>Productive</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aspernatur ad quae perspiciatis repellat! Tempora ea vero harum hic eveniet dolorem accusamus velit, eum adipisci nostrum quisquam, illum maxime! Dolorem.</p>
             </article>
             <article>
-                <h3>More than a database</h3>
+                <h3><i class="fas fa-chevron-right"></i>More than a database</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aspernatur ad quae perspiciatis repellat! Tempora ea vero harum hic eveniet dolorem accusamus velit, eum adipisci nostrum quisquam, illum maxime! Dolorem.</p>
             </article>
         </section>
         <!--section articles end -->
         <!--section teams start -->
-        <section>
-            <h4>For awesome projects with deadlines</h4>
+        <section class="teams">
+            <h4>Innovative teams gets more done with turlututu.com</h4>
         </section>
         <!--section teams end -->
         <!--section logos start -->
-        <section>
+        <section class="logos">
             <img src="./assets/images/Miles.png" alt="Miles">
             <img src="./assets/images/APP.png" alt="App">
             <img src="./assets/images/Spectrum.png" alt="Spectrum">
@@ -78,19 +87,19 @@
         </section>
         <!--section logos end -->
         <!--section buttons action start -->
-        <section>
-            <button>REST API</button>
-            <button>Docs</button>
-            <button>Start Building</button>
+        <section class="buttonAction">
+            <button>REST API >></button>
+            <button>Docs >></button>
+            <button class="startBuilding">Start Building >></button>
         </section>
         <!--section buttons action end -->
-        <footer>
+        <footer class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li class="footerNav"><a href="#">Home</a></li>
+                <li class="footerNav"><a href="#">About</a></li>
+                <li class="footerNav"><a href="#">Contact</a></li>
+                <li class="footerNav"><a href="#">Terms & Conditions</a></li>
+                <li class="footerNavLast"><a href="#">Privacy Policy</a></li>
             </ul>
         </footer>
 

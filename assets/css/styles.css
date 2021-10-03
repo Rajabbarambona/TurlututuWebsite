@@ -1,0 +1,220 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    background: #333333;
+    padding: 1rem;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    padding-right: 1rem;
+}
+
+.topLogo {
+    margin-right: 2rem;
+    margin-left: 8rem;
+}
+
+.hero {
+    display: flex;
+    background: #1e93cc;
+    justify-content: space-evenly;
+    padding: 2.5rem;
+}
+
+.innerHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.textButtonHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText {
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    color: #fff;
+}
+
+.heroButton {
+    background: #e99002;
+    font-size: 20px;
+    width: fit-content;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.deadlines {
+    padding: 2rem;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #1e93cc;
+    padding: 2rem;
+}
+
+article {
+    width: 50%;
+    color: #fff;
+}
+
+article>h3 {
+    font-size: 24px;
+    padding-bottom: .5rem;
+}
+
+article>h3>i {
+    padding-right: .5rem;
+    font-size: 16px;
+}
+
+article>p {
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+.projects {
+    position: relative;
+    text-align: right;
+    right: 18rem;
+    font-size: 20px;
+}
+
+.teams {
+    position: relative;
+    text-align: right;
+    right: 14rem;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.logos {
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    background: #eeeeee;
+    justify-content: space-evenly;
+}
+
+section>img {
+    padding: .5rem;
+}
+
+section>button {
+    width: 12rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #165882;
+    font-size: 1.2rem;
+}
+
+.buttonAction {
+    text-align: center;
+    margin: 3rem;
+}
+
+.startBuilding {
+    background: #e99002;
+}
+
+.footerNav {
+    border-right: 1px dotted #fff;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.footerNavLast {
+    padding-left: .5rem;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+    .navigation {
+        flex-direction: column;
+    }
+    .topLogo {
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    li {
+        padding: .5rem;
+    }
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects {
+        text-align: center;
+        right: 0;
+    }
+    .articles {
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+    }
+    .teams {
+        text-align: center;
+        right: 0;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+    .topLogo {
+        margin-left: 4rem;
+    }
+    .teams {
+        text-align: center;
+        right: 0;
+    }
+    .projects {
+        text-align: center;
+        right: 0;
+    }
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 786px) {}
